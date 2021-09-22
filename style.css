@@ -5,8 +5,9 @@
 }
 
 :root {
-  --primary-color: #41aea9;
-  --secondary-color: #e8ffff;
+  --primary-color: #98ddca;
+  --secondary-color: #ffaaa7;
+  --tertary-color: #ffd3b4;
 }
 
 body {
@@ -52,10 +53,19 @@ header {
 }
 
 #btn--check {
-  height: 2rem;
+  padding: 1em;
+  background: var(--primary-color);
   margin: 1rem 0;
   min-width: 20%;
   border-radius: 5px;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+#btn--check:hover {
+  background-color: var(--tertary-color);
+  transition: background-color 0.5s;
 }
 
 #error--msg {
