@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #41aea9;
+  --secondary-color: #e8ffff;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--secondary-color);
+  background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
+}
+
+header {
+  text-align: center;
+  background-color: var(--primary-color);
+}
+
+.div--header {
+  padding: 1rem 0;
+  font-size: 2.2rem;
+  box-shadow: -1px 6px 16px -1px rgba(0, 0, 0, 0.62);
+  -webkit-box-shadow: -1px 6px 16px -1px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: -1px 6px 16px -1px rgba(0, 0, 0, 0.62);
+}
+
+.div--input {
+  display: block;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+
+#input--dob,
+#input--number {
+  padding-left: 0.5rem;
+  margin-top: 1rem;
+  /* min-width: 30%; */
+  width: min(50%, 25rem);
+  height: 3rem;
+  border-radius: 5px;
+}
+
+.div--contents {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+#btn--check {
+  height: 2rem;
+  margin: 1rem 0;
+  min-width: 20%;
+  border-radius: 5px;
+}
+
+#error--msg {
+  display: none;
+  font-size: 1.5rem;
+}
+
+/* footer style */
+footer {
+  margin-top: auto;
+  display: block;
+  width: 100%;
+  background-color: var(--primary-color);
+  bottom: 0;
+  box-shadow: 0px -15px 7px -12px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0px -15px 7px -12px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px -15px 7px -12px rgba(0, 0, 0, 0.7);
+}
+
+.footer--heading {
+  padding: 0.5em;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 1.5rem;
+}
+
+.footer--logo {
+  margin: 0.7rem 1.5rem;
+}
