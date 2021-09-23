@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +6,9 @@
 }
 
 :root {
-  --primary-color: #98ddca;
-  --secondary-color: #ffaaa7;
-  --tertary-color: #ffd3b4;
+  --primary-color: #71c9ce;
+  --secondary-color: #e3fdfd;
+  --tertary-color: #a6e3e9;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
   height: 100vh;
   background-color: var(--secondary-color);
   background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
+  font-family: "Montserrat", sans-serif;
 }
 
 header {
@@ -26,9 +28,6 @@ header {
 .div--header {
   padding: 1rem 0;
   font-size: 2.2rem;
-  box-shadow: -1px 6px 16px -1px rgba(0, 0, 0, 0.62);
-  -webkit-box-shadow: -1px 6px 16px -1px rgba(0, 0, 0, 0.62);
-  -moz-box-shadow: -1px 6px 16px -1px rgba(0, 0, 0, 0.62);
 }
 
 .div--input {
@@ -58,7 +57,6 @@ header {
   margin: 1rem 0;
   min-width: 20%;
   border-radius: 5px;
-  color: white;
   font-size: 1.1rem;
   cursor: pointer;
   transition: background-color 0.5s;
@@ -70,7 +68,7 @@ header {
 
 #error--msg {
   display: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 /* footer style */
@@ -80,9 +78,6 @@ footer {
   width: 100%;
   background-color: var(--primary-color);
   bottom: 0;
-  box-shadow: 0px -15px 7px -12px rgba(0, 0, 0, 0.7);
-  -webkit-box-shadow: 0px -15px 7px -12px rgba(0, 0, 0, 0.7);
-  -moz-box-shadow: 0px -15px 7px -12px rgba(0, 0, 0, 0.7);
 }
 
 .footer--heading {
